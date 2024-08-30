@@ -32,7 +32,7 @@ const products = [
             { image: './image/so9.jpg' },
             { image: './image/so10.jpg' },
             { image: './image/so11.jpg' },
-            { image: './image/so12.jpg' },
+            { image: './image/so1.jpg' },
         ]
     },
     {
