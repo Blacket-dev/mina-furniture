@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <ul class="locations">
+                    <li>
+                        <h3><i class="fas fa-map-marker-alt"></i>Jemo</h3>
+                        <p>In front of Hansom Glass Factory. Raha Mall 1st Floor (premium branch)</p>
+                    </li>
+                    <li>
+                        <h3><i class="fas fa-map-marker-alt"></i> Gurd Shola</h3>
+                        <p>In front of Century Mall</p>
+                    </li>
+                    <li>
+                        <h3><i class="fas fa-map-marker-alt"></i>Jemo 1</h3>
+                        <p>In front of Hansom Glass Factory. Bereka Building, Ground Floor</p>
+                    </li>
+                </ul>
+                
+                <div class="contact-numbers">
+                    <a href="tel:+1234567890">092424-5151</a>
+                    <a href="tel:+1234567890">093434-5151</a>
+                    <a href="tel:+1234567890">093838-5151</a>
+                    <a href="tel:+1234567890">093232-5151</a>
+                </div>
+                <div class="dropdown">
+                    <select id="addressSelect" onchange="changeLocation()">
+                        <option value="default">Shopping Address</option>
+                        <option value="jemo">Jemo</option>
+                        <option value="gurdShola">Gurd Shola</option>
+                        <option value="jemo1">Jemo 1</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="Your email address">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252232.82724099746!2d38.40413139453125!3d8.959436199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8122a339b649%3A0xec5afd8f9ab52143!2zTWluYSBGdXJuaXR1cmUgfCBKb21vIHwg4Yia4YqTIOGNiOGIreGKkuGJuOGIrSB8IOGMgOGIng!5e0!3m2!1sen!2set!4v1725046554163!5m2!1sen!2set"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+      
+    <!-- Footer -->
+    <div class="p-8">
+        <h2 class="text-xl font-semibold">Join our newsletter to receive the latest information!</h2>
+        <p class="text-muted-foreground">You can unsubscribe at any time.</p>
+        <form class="mt-4">
+          <input type="email" placeholder="Your Email" class="border border-border p-2 rounded-lg w-full" required />
+          <button type="submit" class="bg-secondary text-secondary-foreground hover:bg-secondary/80 mt-2 p-2 rounded-lg w-full">Subscribe</button>
+        </form>
+      </div>
+    
+      <footer class="bg-zinc-800 text-muted-foreground p-4">
+        <div class="grid grid-cols-3 gap-4">
+          <div>
+            <h3 class="font-bold">Company</h3>
+            <ul>
+              <li><a href="#" class="hover:text-muted">About us</a></li>
+              <li><a href="#" class="hover:text-muted">Blogs</a></li>
+              <li><a href="#" class="hover:text-muted">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold">Product</h3>
+            <ul>
+              <li><a href="#" class="hover:text-muted">Pricing</a></li>
+              <li><a href="#" class="hover:text-muted">Features</a></li>
+              <li><a href="#" class="hover:text-muted">Sponsorship</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold">Contacts</h3>
+            <ul>
+              <li><a href="#+251 92424-5151" class="hover:text-muted">+251 92424-5151</a></li>
+              <li><a href="#+251 93434-5151" class="hover:text-muted">+251 93434-5151</a></li>
+              <li><a href="#+251 93838-5151" class="hover:text-muted">+251 93838-5151</a></li>
+                 <li><a href="#+251 93232-5151" class="hover:text-muted">+251 93232-5151</a></li>
+                 <li><a href="#+251 11838-7204" class="hover:text-muted">+251 11838-7204</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-4 text-sm">
+          <p>Copyright © 2021 - Mina Furniture</p>
+          <p>Designed by:<a href="https://t.me/CodeAndCreate"> black lion</a></p>
+         
+        </div>
+      </footer>
+    </div>
+    <footer>
+        <div class="social-media">
+          <a href="https://www.facebook.com/Minafurnitur/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/yourtwitterhandle" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/yourinstagramhandle/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://t.me/minafurniture" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="https://www.youtube.com/youryoutubechannel" target="_blank">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </footer>
+<a href="#home" class="back-to-top" id="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
