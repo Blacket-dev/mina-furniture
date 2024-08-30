@@ -8,13 +8,7 @@ const products = [
             { image: './image/dt2.jpeg' },
             { image: './image/dt3.jpg' },
             { image: './image/dt4.jpg' },
-            { image: './image/dt5.jpg' },
-            { image: './image/dt6.jpg' },
-            { image: './image/dt7.jpg' },
-            { image: './image/dt8.jpg' },
-            { image: './image/dt9.jpg' },
-            { image: './image/dt10.jpg' },
-            { image: './image/dt11.jpg' },
+   
         ]
     },
     {
