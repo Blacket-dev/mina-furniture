@@ -23,11 +23,18 @@ const products = [
         name: 'Sofa',
         category: 'Sofa',
         items: [
-            { image: './image/so1.jpg' },
+          { image: './image/so1.jpg' },
             { image: './image/so2.jpg' },
             { image: './image/so19.jpg' },
             { image: './image/so4.jpg' },
-          
+            { image: './image/so5.jpg' },
+            { image: './image/so6.jpg' },
+            { image: './image/so7.jpg' },
+            { image: './image/so8.jpg' },
+            { image: './image/so9.jpg' },
+            { image: './image/so10.jpg' },
+            { image: './image/so11.jpg' },
+            { image: './image/so12.jpg' },
         ]
     },
     {
